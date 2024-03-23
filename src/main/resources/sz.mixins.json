@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.sz.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "sz.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "Zoom",
+    "InventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
